@@ -14,7 +14,7 @@ export default function SignInForm({ onToggle = () => {} }) {
       <Input placeholder="Password" type="password" />
       <Button className={"w-32"}>Sign In</Button>
       <p className="">
-        Don't have an account?{" "}
+        Don&apos;t have an account?{" "}
         <span className="font-bold cursor-pointer" onClick={onToggle}>
           Register
         </span>
