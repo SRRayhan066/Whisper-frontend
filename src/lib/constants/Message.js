@@ -20,6 +20,11 @@ export const Message = {
   INVALID_CREDENTIALS: "Invalid email or password",
   EMAIL_ALREADY_EXISTS: "Email already exists",
 
+  // Chat Messages
+  SEND_MESSAGE_FAILED: "Failed to send message",
+  LOAD_USERS_FAILED: "Failed to load users",
+  LOAD_MESSAGES_FAILED: "Failed to load messages",
+
   // General Success Messages
   OPERATION_SUCCESS: "Operation completed successfully",
 };

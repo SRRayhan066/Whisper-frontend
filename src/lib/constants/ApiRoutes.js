@@ -21,3 +21,15 @@ export const signOutApi = () => {
 export const getNewToken = () => {
   return Api.GET("/api/auth/refresh-token");
 };
+
+export const getChatApi = (id) => {
+  return Api.GET(`/api/chat?id=${id}`);
+};
+
+export const postChatApi = (payload) => {
+  return Api.POST("/api/chat", payload);
+};
+
+export const getAllUsersApi = () => {
+  return Api.GET("/api/user");
+};
